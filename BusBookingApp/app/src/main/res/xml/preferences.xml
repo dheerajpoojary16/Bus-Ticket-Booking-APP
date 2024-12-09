@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Preference
+        android:key="my_account"
+        android:title="My Account"
+        android:summary="View and edit your account details" />
+    <Preference
+        android:key="previous_transactions"
+        android:title="Previous Transactions"
+        android:summary="View your booking history" />
+    <Preference
+        android:key="app_settings"
+        android:title="App Settings"
+        android:summary="Configure additional app settings" />
+    <Preference
+        android:key="logout"
+        android:title="Logout"
+        android:summary="Sign out of your account" />
+    <!-- Add other preferences here -->
+</PreferenceScreen>

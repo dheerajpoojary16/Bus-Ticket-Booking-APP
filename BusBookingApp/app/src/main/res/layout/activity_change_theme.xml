@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <RadioGroup
+        android:id="@+id/themeRadioGroup"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/systemTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="System Default" />
+
+        <RadioButton
+            android:id="@+id/lightTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Light Theme" />
+
+        <RadioButton
+            android:id="@+id/darkTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Dark Theme" />
+
+        <RadioButton
+            android:id="@+id/batteryTheme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Battery Saver Theme" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/applyThemeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Apply Theme" />
+
+</LinearLayout>
